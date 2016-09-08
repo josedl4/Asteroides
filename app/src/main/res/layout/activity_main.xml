@@ -43,5 +43,6 @@
         android:layout_height="wrap_content"
         android:text="@string/salir"
         android:id="@+id/but_salir"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:onClick="salir"/>
 </LinearLayout>
