@@ -35,7 +35,8 @@
         android:layout_height="wrap_content"
         android:text="@string/acerca_de"
         android:id="@+id/but_acerca"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:onClick="lanzarAcercaDe" />
 
     <Button
         android:layout_width="match_parent"
