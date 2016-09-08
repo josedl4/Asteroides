@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Asteroides</string>
+    <string name="asteroides">Asteroides</string>
+    <string name="jugar">JUGAR</string>
+    <string name="configurar">CONFIGURAR</string>
+    <string name="acerca_de">ACERCA DE</string>
+    <string name="salir">SALIR</string>
+</resources>
