@@ -7,12 +7,19 @@
         android:id="@+id/action_settings"
         android:title="Configuración"
         android:icon="@android:drawable/ic_menu_preferences"
-        android:orderInCategory="100"
+        android:orderInCategory="5"
         app:showAsAction="never"/>
     <item
         android:title="Acerca de Asteroides"
         android:id="@+id/acercaDe"
-        android:icon="@android:drawable/ic_menu_info_details"/>
-
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="10"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Buscar"
+        android:id="@+id/menu_buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        app:showAsAction="always"/>
 
 </menu>
