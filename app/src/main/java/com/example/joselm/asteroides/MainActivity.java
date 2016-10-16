@@ -38,6 +38,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void lanzarPreferencias(View view) {
+        Intent i = new Intent(this, Preferencias.class);
+        startActivity(i);
+    }
+
     public void salir(View view){
         finish();
     }
@@ -56,6 +61,10 @@ public class MainActivity extends AppCompatActivity {
         }
         if(id == R.id.acercaDe){
             lanzarAcercaDe(null);
+            return true;
+        }
+        if(id == R.id.but_config){
+            lanzarPreferencias(null);
             return true;
         }
         return super.onOptionsItemSelected(item);

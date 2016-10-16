@@ -34,7 +34,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/configurar"
                 android:id="@+id/but_config"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:onClick="lanzarPreferencias"/>
         </TableRow>
 
         <TableRow>

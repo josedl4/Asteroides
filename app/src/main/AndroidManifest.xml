@@ -18,6 +18,9 @@
         <activity android:name=".AcercaDe"
             android:label="Acerca de Asteroides"
             android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".Preferencias"
+            android:label="Preferencias Asteroides"
+            android:theme="@android:style/Animation.Activity"/>
     </application>
 
 </manifest>
