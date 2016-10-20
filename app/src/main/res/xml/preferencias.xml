@@ -18,7 +18,7 @@
         android:title="Número de fragmentos"
         android:summary="En cuantos trozos se divide un asteroide"
         android:defaultValue="3"/>
-    <PreferenceScreen
+    <PreferenceCategory
         android:title="Modo Multijugador">
         <CheckBoxPreference
             android:key="modo_multijudador"
@@ -37,5 +37,5 @@
             android:entryValues="@array/tiposConexionesValores"
             android:defaultValue="1"/>
 
-    </PreferenceScreen>
+    </PreferenceCategory>
 </PreferenceScreen>
