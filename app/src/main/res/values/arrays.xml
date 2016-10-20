@@ -10,4 +10,15 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <string-array name="tiposConexiones">
+        <item>Bluetooth</item>
+        <item>Wi-Fi</item>
+        <item>Internet</item>
+    </string-array>
+    <string-array name="tiposConexionesValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
