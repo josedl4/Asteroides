@@ -21,6 +21,9 @@
         <activity android:name=".Preferencias"
             android:label="Preferencias Asteroides"
             android:theme="@android:style/Animation.Activity"/>
+        <activity android:name=".Puntuaciones"
+            android:label="Puntuaciones del Juego"
+            android:theme="@android:style/Animation.Activity"/>
     </application>
 
 </manifest>

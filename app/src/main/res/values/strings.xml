@@ -4,5 +4,6 @@
     <string name="jugar">JUGAR</string>
     <string name="configurar">CONFIGURAR</string>
     <string name="acerca_de">ACERCA DE</string>
+    <string name="puntuaciones">PUNTUACIONES</string>
     <string name="salir">SALIR</string>
 </resources>

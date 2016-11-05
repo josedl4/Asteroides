@@ -5,5 +5,6 @@
     <string name="jugar">PLAY</string>
     <string name="configurar">CONFIG</string>
     <string name="acerca_de">ABOUT</string>
+    <string name="puntuaciones">SCORES</string>
     <string name="salir">EXIT</string>
 </resources>

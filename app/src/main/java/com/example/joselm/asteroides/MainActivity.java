@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button bAcercaDe;
     private Button bSalir;
+    private Button bPuntuaciones;
+    public static AlmacenPuntuaciones almacen = new AlmacenPuntuacionesArray();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,27 +21,40 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bAcercaDe = (Button) findViewById(R.id.but_acerca);
         bSalir = (Button) findViewById(R.id.but_salir);
+        bPuntuaciones = (Button) findViewById(R.id.but_puntuaciones);
+
         bAcercaDe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 lanzarAcercaDe(null);
             }
         });
+
         bSalir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
             }
         });
+
+        bPuntuaciones.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {lanzarPuntuaciones(view);}
+        });
     }
 
-    public void lanzarAcercaDe(View view){
+    public void lanzarAcercaDe(View view) {
         Intent i = new Intent(this, AcercaDe.class);
         startActivity(i);
     }
 
     public void lanzarPreferencias(View view) {
         Intent i = new Intent(this, Preferencias.class);
+        startActivity(i);
+    }
+
+    public void lanzarPuntuaciones(View view) {
+        Intent i = new Intent(this, Puntuaciones.class);
         startActivity(i);
     }
 

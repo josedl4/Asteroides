@@ -50,11 +50,18 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/salir"
-                android:id="@+id/but_salir"
+                android:text="@string/puntuaciones"
+                android:id="@+id/but_puntuaciones"
                 android:textSize="25sp"
-                android:onClick="salir"/>
+                android:onClick="lanzarPuntuaciones"/>
         </TableRow>
 
     </TableLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salir"
+        android:id="@+id/but_salir"
+        android:textSize="25sp"
+        android:onClick="salir"/>
 </LinearLayout>
